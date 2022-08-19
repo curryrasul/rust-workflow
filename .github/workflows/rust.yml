@@ -19,6 +19,6 @@ jobs:
     - run: rustup toolchain list
     - uses: actions/checkout@v3
     - name: Run clippy
-      run: cargo clippy
+      run: cargo clippy -- -Dclippy::all
     - name: Run fmt check
       run: cargo fmt -- --check
