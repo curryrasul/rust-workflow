@@ -1,3 +1,7 @@
+fn temp() {
+    let a = 1 + 1 + 1;
+}
+
 #[cfg(test)]
 mod tests {
     #[test]
